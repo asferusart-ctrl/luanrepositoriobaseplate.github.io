@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portifolios dos Membros</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">   
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">   
+</head>
+<body>
+
+ <!--navgation menu-->
+  <nav>
+    <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+         <span>Luan</span>
+        </div>
+        <div class="links">
+            <div class="link team-dropdown"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50">
+                <a href="#" style="color: cornflowerblue;">Equipe<i class="fa-solid fa-chevron-down" style="font-size: 0.8rem;"></i></a>
+                <div class="team-menu">
+                    <a href="page2.html">Eloisa</a>
+                    <a href="page3.html">Luan</a>
+                    <a href="page4.html">Murilo</a>
+                </div>
+            </div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#Início">Início</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#Sobre">Sobre</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#Habilidades">Habilidades</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#Serviços">Serviços</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#Contato">Contato</a></div>    
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburgMenu()"></i>
+    </div>
+      <div class="dropdown">
+        <div class="links">
+          <div class="links">
+            <a href="#Início" onclick="cancelMenu()">Início</a>
+            <a href="#Sobre" onclick="cancelMenu()">Sobre</a>
+            <a href="#Habilidades" onclick="cancelMenu()">Habilidades</a>
+            <a href="#Serviços" onclick="cancelMenu()">Serviços</a>
+            <a href="#Contato" onclick="cancelMenu()">Contato</a>
+            <a href="page2.html">Eloisa</a>
+            <a href="page3.html">Luan</a>
+            <a href="page4.html">Murilo</a>
+            <i class="fa-solid fa-xmark close" onclick="cancelMenu()"></i> 
+        </div>
+      </div>
+  </nav>
+  <section>
+
+    <!--Ids-->
+    <section id="Início">
+        <div class="main-container">
+    
+    
+    <div class="main-container">
+        <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+          <img src="magicbullet.jpg" alt="">
+        </div>
+        <div class="content">
+            <h1 data-aos="fade-left" data-aos-duration="1500"data-aos-delay="700">
+                Olá,eu sou
+                <span>Luan</span>
+            </h1>
+            <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
+                E sou um
+                <span class="typewriter-text"></span>
+                <label for="">|</label>
+            </div>
+            <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100   ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus repudiandae fugit eaque eum aliquam corporis tenetur rem, vel consequuntur iure pariatur accusantium corrupti mollitia ipsam at. Officiis hic beatae praesentium.</p>
+            <div class="social-links">
+                <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                    <i class="fa-brands fa-spotify"></i>
+                </a>
+                <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                    <i class="fa-brands fa-steam"></i>
+                </a>
+                <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                    <i class="fa-brands fa-discord"></i>
+                </a> 
+            </div>
+            <div class="btn">
+                <button>Me contrate </button>
+            </div>
+        </div>
+    </div>
+    </div>
+  </section>
+  </section>
+
+
+  <!--Sessão inicial sobre-->
+
+
+  <section class="Sobre" id="Sobre">
+    <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>Sobre Mim</span></div>
+        <div class="Sobre-detalhes">
+            <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+                <img src="magicbullet.jpg" alt="" />
+            </div>
+            <div class="right">
+                <div class="topic" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">Adoro carregar Livros</div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat libero fugiat architecto quod
+                   iure, vero debitis molestiae aliquid qui rerum quia, minima enim rem accusamus culpa quis ad recusandae id.
+                </p>
+                <div class="button" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="400">
+                    <button>Baixe o Curriculo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+  <!--Sessão de minhas habilidades-->
+  <section class="Habilidades" id="Habilidades">
+    <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>Minhas Habilidades</span></div>
+        <div class="detalhes-Habilidades">
+            <div class="text">
+                <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+                    Habilidade reflete nosso conhecimento.
+                </div>
+                <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa eum voluptate aspernatur? Sunt ratione pariatur adipisci dicta accusantium, et tempora error, ea beatae cupiditate natus quasi? Tempora minus ipsum delectus.</p>
+                <div class="experiencia">
+                 <div class="num">1</div>
+                 <div class="exp">
+                    Anos de <br/>
+                    Experiencia
+                 </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                 <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">HTML</div>
+                 <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">60%</div>
+                </div>
+                <div class="box">
+                 <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="450">CSS</div>
+                 <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">50%</div>
+                </div>
+                <div class="box">
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="450">JavaScript</div>
+                    <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">15%</div>
+                </div>
+            </div>
+        </div>
+    </div> 
+  </section>
+
+  <!--sessão de Meus serviços-->
+  <section class="services" id="Serviços">
+    <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>Meus Serviços</span></div>
+        <div class="boxes">
+         <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+            <div class="icon">
+                <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">Desenvolvimento de Sites</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti eos debitis unde quis odio deserunt ipsa, adipisci libero accusamus ducimus nulla dolorum. Consectetur natus fugiat, autem perferendis id ex. Nam!</p>
+         </div>
+         <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+            <div class="icon">
+                <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="topic">Design Grafico</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reprehenderit, magni ea perspiciatis molestiae beatae distinctio ipsum velit tempora exercitationem nisi officiis deleniti labore deserunt esse pariatur cupiditate dolorum dolorem.</p>
+         </div>
+         <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+            <div class="icon">
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="topic">Marketing Digital</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi esse quia repudiandae accusamus voluptatem, qui voluptatum eaque fugiat, ad molestias corrupti maxime illo autem rerum aperiam, iusto optio corporis eligendi.</p>
+         </div>
+         <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+            <div class="icon">
+                <i class="fas fa-film"></i>
+            </div>
+            <div class="topic">Motion Graphics</div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima aut, veniam ipsam, molestias nulla quam corrupti voluptates itaque id assumenda quasi dolorum atque magnam. Adipisci nostrum dolores consectetur corrupti ut.</p>
+         </div>
+         <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1000">
+            <div class="icon">
+                <i class="fas fa-pen-nib"></i>
+            </div>
+            <div class="topic">Digital Art</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempora consequatur ipsam sequi in, laborum aspernatur nobis ea facere placeat maxime perspiciatis veniam obcaecati iure quasi. Hic neque sed omnis.</p>
+         </div>
+         <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200">
+            <div class="icon">
+                <i class="fas fa-camera"></i>
+            </div>
+            <div class="topic">Edição de Video</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque minima laudantium facere minus officiis mollitia repellendus maiores unde, accusantium similique tempore blanditiis quos voluptatem quidem nam hic amet beatae vitae.</p>
+         </div>
+        </div>
+    </div>
+  </section>
+
+  <!--inicio da sessão de Me contate-->
+  <section class="contact" id="Contato">
+    <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>Me Contate</span></div>
+     <span>Me Contate</span>
+    </div>
+    <div class="text">
+        <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Tem Algum Projeto?</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quam dolorum placeat ab eaque quisquam illo aperiam aspernatur recusandae natus. Maiores deleniti architecto, voluptate quo error iusto adipisci blanditiis exercitationem.</p>
+        <div class="button">
+         <button data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">Vamos Conversar</button>
+        </div>
+    </div>
+  </section>
+
+  <!--sessão do footer inicial-->
+  <footer>
+    <div class="text">
+     <span>Criado Por
+      <a href="#">Luan Miguel</a>
+      |&#169; 2026 Todos os diretos reservados</span>
+     </span>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({offset:0});
+</script>   
+
+<script>
+    function hamburgMenu() {
+        const dropdown = document.querySelector('.dropdown');
+        dropdown.style.transform= 'translateY(0)';
+    }
+    function cancelMenu() {
+        const dropdown = document.querySelector('.dropdown');
+        dropdown.style.transform = 'translateY(-500px)';
+    }
+</script>
+
+<script>
+    const words = ["Desenvolvedor Web", "Programador", "Estudante", "Criador de Conteúdo"];
+    let i = 0;
+
+    function typingEffect() {
+        let word = words[i].split("");
+        var loopTyping = function() {
+            if (word.length > 0) {
+                document.querySelector('.typewriter-text').textContent += word.shift();
+            } else {
+                setTimeout(deletingEffect, 2000);
+                return false;
+            }
+            setTimeout(loopTyping, 150);
+        };
+        loopTyping();
+    }
+
+    function deletingEffect() {
+        let word = words[i].split("");
+        var loopDeleting = function() {
+            if (word.length > 0) {
+                word.pop();
+                document.querySelector('.typewriter-text').textContent = word.join("");
+            } else {
+                i = (i + 1) % words.length;
+                setTimeout(typingEffect, 500);
+                return false;
+            }
+            setTimeout(loopDeleting, 100);
+        };
+        loopDeleting();
+    }
+
+    typingEffect();
+</script>
+
+</body>
+</html>
